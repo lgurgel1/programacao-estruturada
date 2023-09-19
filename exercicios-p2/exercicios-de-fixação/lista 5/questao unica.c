@@ -1,7 +1,7 @@
 int main()
 {
    float primeiras_notas[60], segundas_notas[60], media[60];
-   int situacao_aluno[60], i;
+   int situacao_aluno[3], i;
    for (i = 0; i<= 59; i++){
 
     printf("Informe a primeira nota do aluno %d: ", i);
@@ -24,8 +24,22 @@ int main()
         printf("e a media do aluno %d foi %.1f", i, media[i]);
         printf("\n");
     }
-    for (i = 0; i<= 2; i++);
+   for (i = 0;i<= 2;i++){
+    for(i = 0; i <= 59; i++){
+        if (media[i] >= 7){
+            situacao_aluno[i] = 0;     
+        }
+        elseif(media[i] >= 3 && media[i] < 7){
 
+            situacao_aluno[i] = 1;
+        }
+        else{
+
+            situacao_aluno[i] = 2;
+        }
+
+    }
+   }
 
 
     return 0;

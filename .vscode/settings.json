@@ -2,6 +2,8 @@
     "files.associations": {
         "QUESTAO 4.C": "cpp",
         "QUESTAO 1.C": "cpp",
-        "QUESTAO 2.C": "cpp"
-    }
+        "QUESTAO 2.C": "cpp",
+        "QUESTAO 3.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
